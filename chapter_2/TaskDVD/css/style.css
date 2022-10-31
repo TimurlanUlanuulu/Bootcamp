@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.dvd {
+  background-color: red;
+  width: 210px;
+  height: 110px;
+  animation: change 10s infinite linear;
+}
+
+.dvd img {
+  width: 200px;
+  margin: 5px;
+}
+
+@keyframes change {
+  0% {
+    background-color: red;
+    transform: translateX(0);
+  }
+
+  20% {
+    background-color: violet;
+    margin-left: 1140px;
+    margin-top: 100px;
+  }
+  40% {
+    background-color: blue;
+    transform: translateY(500px);
+    margin-right: 100px;
+  }
+  60% {
+    margin-left: 0px;
+    margin-bottom: 100px;
+  }
+  80% {
+    margin-left: 500px;
+    transform: translateY(0px);
+  }
+}

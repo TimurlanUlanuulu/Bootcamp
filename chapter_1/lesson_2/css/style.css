@@ -1,0 +1,61 @@
+/* #3 */
+/* * {
+  font-size: 30px;
+}
+p {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+#block1 {
+  color: pink;
+  font-size: 100px;
+}
+
+.text-green {
+  color: yellowgreen;
+}
+
+.text-purple {
+  color: purple;
+}
+
+.text-red {
+  color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+div {
+  background-color: black !important;
+  color: red;
+  font-size: 70px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: 10px;
+} */
+.block {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 200px;
+  /* margin: 100px; */
+  margin-top: 100px;
+  margin-bottom: 70px;
+  text-align: center;
+  padding-top: 30px;
+  border: 5px red dashed;
+  font-style: italic;
+}
+span:hover {
+  color: yellow;
+}

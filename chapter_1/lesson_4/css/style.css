@@ -1,0 +1,42 @@
+.parent {
+  background-color: bisque;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  justify-content: end; */
+  /* flex-direction: row-reverse; */
+  /* justify-content: center; */
+  /* justify-content: start; */
+  /* align-items: end; */
+  /* align-items: center; */
+}
+
+.child {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+/* 
+.second {
+  order: -1;
+}
+
+.first {
+  order: 1;
+}
+
+.fifth {
+  order: -2;
+} */
+
+span:hover {
+  text-decoration: underline;
+}
